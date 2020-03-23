@@ -11,8 +11,11 @@
 }
 
 .bg-color-personal-info {
-    background-color: #f4f4f4;
+    /* background-color: #f4f4f4; */
+    background-color: #ff7512;
 }
+
+
 
 .bg-color-work-history {
     background-color: #9b59b6;
@@ -23,7 +26,8 @@
 }
 
 .ui-menu-color-home {
-    background-color: #e67e22;
+    /* background-color: #e67e22; */
+    background-color: #ff7512;
 }
 
 .ui-menu-color-resume {
@@ -31,7 +35,8 @@
 }
 
 .ui-menu-color-contact {
-    background-color: #3498db;
+    /* background-color: #3498db; */
+    background-color: #30e0fc;
 }
 
 .ui-menu-color-download {
@@ -53,6 +58,10 @@
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
+}
+
+.value p a {
+    color: #000000;
 }
 
 /* --- Special Paddings, Margins, and Text --- */
@@ -232,7 +241,8 @@ footer {
 }
 
 .cv-pdf i:hover {
-    color: #e84610;
+    /* color: #e84610; */
+    color: #ff7512;
 }
 
 .social-links {
@@ -256,7 +266,8 @@ footer {
 }
 
 .social-links li a i:hover {
-    background: #e84610;
+    /* background: #e84610; */
+    background: #ff7512;
 }
 
 #footer-details {
@@ -266,7 +277,8 @@ footer {
 /* --- Three Reasons --- */
 .three-reasons-icon {
     font-size: 26px;
-    color: #e67e22;
+    /* color: #e67e22; */
+    color: #ff7512;
 }
 
 .three-reasons-heading {
@@ -398,7 +410,8 @@ button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
     color: #fafafa;
-    background-color: #e84610;
+    /* background-color: #e84610; */
+    background-color: #ff7512;
 }
 
 /* --- Media Query for Desktop --- */
