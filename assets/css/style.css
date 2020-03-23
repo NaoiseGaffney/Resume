@@ -291,7 +291,8 @@ footer {
 }
 
 .three-reasons-heading {
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
+    margin-bottom: 10px;
 }
 
 /* --- Personal Info --- */
@@ -401,7 +402,7 @@ footer {
     margin-bottom: 30px;
 }
 
-/* --- Contact Form --- */
+/* --- Contact Form NO LONGER USED --- */
 .contact-heading {
     font-family: Exo, sans-serif;
     font-weight: 300;
@@ -423,7 +424,7 @@ button[type="submit"] {
     background-color: #ff7512;
 }
 
-/* --- Media Query for Desktop --- */
+/* --- Media Query for Desktop NO LONGER USED --- */
 @media (min-width: 992px) {
     .center-form {
         padding-top: 30px;
@@ -440,7 +441,7 @@ button[type="submit"] {
 }
 
 .quotes {
-    padding: 15px 0px;
+    padding: 10px 0px;
     font-weight: 450;
 }
 
@@ -451,4 +452,10 @@ p b i {
 div span i {
     padding-right: 10px;
     padding-bottom: 15px;
+}
+
+@media (min-width: 575px) {
+    .quotes {
+        padding: 0px 0px 10px 0px;
+    }
 }
