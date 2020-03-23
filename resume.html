@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- Bootstrap 4 Used - this means we must overlay our own CSS styles to change default behaviour -->
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" rel="stylesheet"
+		type="text/css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+		crossorigin="anonymous">
+	<!-- Using FontAwesome Free Fonts -->
+	<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+		type="text/css">
+	<!-- Adding hover.css from https://cdnjs.com/ to add to the nav/menuitmes -->
+	<link href="https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css" rel="stylesheet"
+		type="text/css">
+	<!-- Our own CSS styles to change default behaviour of Bootstrap, while also adding our own styles -->
+	<link href="assets/css/style.css" rel="stylesheet" type="text/css">
+	<title>Naoise Olof Seán Gaffney</title>
+</head>
+
+<body>
+	<header>
+		<div class="row no-gutters">
+			<a href="index.html" class="col-md-4 logo"></a>
+			<div class="col-md-8">
+				<div class="row  no-gutters bg-color-name-title">
+					<div class="col heading">
+						<h1 class="name">Naoise Olof Seán Gaffney</h1>
+						<h2 class="title">Full Stack Developer, Trainer and Coach</h2>
+					</div>
+				</div>
+				<div class="row no-gutters">
+					<div class="col">
+						<ul id="nav" class="list-inline menucontainer">
+							<li class="col-6 col-sm-3 list-inline-item ui-menu-color-home menuitem">
+								<a href="index.html"
+									class="hvr-sweep-to-bottom"><i class="fa fa-home" aria-hidden="true"></i><span>Home</span></a>
+							</li>
+							<li class="col-6 col-sm-3 list-inline-item ui-menu-color-resume menuitem">
+								<a href="resume.html"
+									class="hvr-sweep-to-bottom"><i class="fa fa-graduation-cap" aria-hidden="true"></i><span>Resume</span></a>
+							</li>
+							<li class="col-6 col-sm-3 list-inline-item ui-menu-color-contact menuitem">
+								<a href="contact.html"
+									class="hvr-sweep-to-bottom"><i class="fa fa-comment-o" aria-hidden="true"></i><span>Contact</span></a>
+							</li>
+							<li class="col-6 col-sm-3 list-inline-item ui-menu-color-download menuitem">
+								<a href="assets/CV/Screenshot 2019-10-07 15.47.11.png"
+									class="hvr-sweep-to-bottom" target="_blank"><i class="fa fa-download" aria-hidden="true"></i><span>Download CV</span></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="container-fluid">
+		<!-- <div class="row row-table"> Removing row-table to fix positioning -->
+		<div class="row">
+			<!-- class="bg-color-personal-info" changed to class="bg-color-work-history" -->
+			<div class="col-md-4 bg-color-work-history section-column">
+				<div class="row">
+					<div class="col-12">
+						<!-- class"section-heading uppercase" changed to class="history-heading uppercase" -->
+						<h3 class="history-heading uppercase">Work History</h3>
+					</div>
+				</div>
+				<div class="history-items">
+					<div class="timeline-item" data-dates="06/2018 - Current">
+						<h4>Independent Training and Development Consultant</h4>
+						<p>Instructional Designer, Instructor and Coach</p>
+					</div>
+					<div class="timeline-item" data-dates="04/2019 - Current">
+						<h4>QQI Trainer: DDLETB and HCT Learning</h4>
+						<p>Instructor / Designer: Train the Trainer, Leadership, Communication, Work Experience...</p>
+					</div>
+					<div class="timeline-item" data-dates="10/1998 - 06/2018">
+						<h4>CA Technologies (Computer Associates)</h4>
+						<p>Global Enterprise Architect, Pre-Sales Director, Trainer and Coach</p>
+					</div>
+					<div class="timeline-item" data-dates="10/1992 - 10/1998">
+						<h4>Faculty of Law at Stockholm University</h4>
+						<p>Chief Technology Officer and ICT Lecturer in 'Masters in Law and IT'</p>
+					</div>
+                    <div class="timeline-item" data-dates="10/1989 - 12/1991">
+						<h4>Royal Swedish Coastal Artillery</h4>
+						<p>Non-Commissioned Officer</p>
+					</div>
+                    <div class="timeline-item" data-dates="1986 - 10/1992">
+						<h4>Independent ICT Consultant</h4>
+						<p>Independent ICT Consultant</p>
+					</div>
+				</div>
+			</div>
+			<div class="col-md-8 bg-color-three-reasons section-column">
+				<div class="row">
+					<div class="col">
+						<h3 class="section-heading uppercase">My Skills</h3>
+					</div>
+				</div>
+				<div class="row">
+					<!-- <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                    Removed col-sm-4 because it forces the use of only 2/3 on a smaller viewport  -->
+					<div class="col-10 offset-1 offset-sm-0 col-md-6">
+						<div class="row">
+							<div class="col-2">
+								<!-- <i class="three-reasons-icon fa fa-tv" aria-hidden="true"></i> -->
+								<i class="three-reasons-icon fa fa-stack-overflow" aria-hidden="true"></i>
+							</div>
+							<div class="col-10">
+								<h4 class="three-reasons-heading uppercase">Full Stack Development</h4>
+								<p>
+									Specialised in dynamic, data-driven, and responsive web design. Skilled in User
+									Experience Design using HTML 5, CSS 3, and JavaScript. Seasoned professional in
+									Python 3, Django, and Flask, as well as MongoDB, MySQL, and MS SQL.
+								</p>
+							</div>
+						</div>
+					</div>
+					<!-- <div class="col-10 offset-1 offset-sm-0 col-sm-4 col-md-6">
+                    Removed col-sm-4 because it forces the use of only 2/3 on a smaller viewport  -->
+					<div class="col-10 offset-1 offset-sm-0 col-md-6">
+						<div class="row">
+							<div class="col-2">
+								<i class="three-reasons-icon fa fa-graduation-cap" aria-hidden="true"></i>
+							</div>
+							<div class="col-10">
+								<h4 class="three-reasons-heading uppercase">Training & Coaching</h4>
+								<p>
+									Solution adoption is provided through clear and enthusiastic communication,
+									coaching, and training. Certified TrainIT / Train the Trainer, and Soft and ICT
+									Skills Trainer of clients, instructional designers and instructors, pre-sales and
+									services consultants.
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row progress-section">
+					<div class="col">
+						<div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+								aria-valuemax="100" style="width:70%;">
+								<span class="sr-only">70% complete</span>
+							</div>
+							<span class="progress-type">HTML 5, CSS 3, JavaScript</span>
+						</div>
+						<div class="progress">
+							<div class="progress-bar bg-success" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+								aria-valuemax="100" style="width:70%;">
+								<span class="sr-only">70% complete</span>
+							</div>
+							<span class="progress-type">Python 3, Django, Flask, jQuery</span>
+						</div>
+						<div class="progress">
+							<div class="progress-bar bg-info" role="progressbar" aria-valuenow="70" aria-valuemin="0"
+								aria-valuemax="100" style="width:70%;">
+								<span class="sr-only">70% complete</span>
+							</div>
+							<span class="progress-type">SQL and NoSQL Databases</span>
+						</div>
+						<div class="progress">
+							<div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+								aria-valuemax="100" style="width:90%;">
+								<span class="sr-only">90% complete</span>
+							</div>
+							<span class="progress-type">Soft Skills</span>
+                            <!-- Communication, Leadership, Presentation, Coaching -->
+						</div>
+						<div class="progress">
+							<div class="progress-bar bg-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+								aria-valuemax="100" style="width:90%;">
+								<span class="sr-only">90% complete</span>
+							</div>
+							<span class="progress-type">Information Technologies</span>
+						</div>
+
+                        <div class="progress">
+							<div class="progress-bar" role="progressbar" aria-valuenow="85" aria-valuemin="0"
+								aria-valuemax="100" style="width:85%;">
+								<span class="sr-only">85% complete</span>
+							</div>
+							<span class="progress-type">Digital Transformations</span>
+						</div>
+						<div class="progress">
+							<div class="progress-bar bg-success" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+								aria-valuemax="100" style="width:90%;">
+								<span class="sr-only">90% complete</span>
+							</div>
+							<span class="progress-type">Enterprise Architecture</span>
+						</div>
+						<div class="progress">
+							<div class="progress-bar bg-info" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+								aria-valuemax="100" style="width:90%;">
+								<span class="sr-only">90% complete</span>
+							</div>
+							<span class="progress-type"> IT Processess, Good Practices</span>
+						</div>
+						<div class="progress">
+							<div class="progress-bar bg-warning" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+								aria-valuemax="100" style="width:90%;">
+								<span class="sr-only">90% complete</span>
+							</div>
+							<span class="progress-type">Business of IT, IT Management Consulting</span>
+						</div>
+						<div class="progress">
+							<div class="progress-bar bg-danger" role="progressbar" aria-valuenow="95" aria-valuemin="0"
+								aria-valuemax="100" style="width:95%;">
+								<span class="sr-only">95% complete</span>
+							</div>
+							<span class="progress-type">Instructional Designer, Instructor</span>
+						</div>
+
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer class="container-fluid">
+		<div id="footer-details" class="row">
+			<div class="col-sm-4">
+				<h5 class="uppercase general-sub">About</h5>
+				<p class="inline-block">
+					<!-- <em>Full Stack Developer:</em><br> Skilled designer and coder from Data-Presentation through Data-in-Motion to Data-at-Rest using the latest technologies and solutions. -->
+					<em>Full Stack Developer:</em><br> Skilled Full Stack Designer and Developer using the latest technologies and solutions.
+				</p>
+					<p class="inline-block">
+						<em>Trainer and Coach:</em><br> Ensuring Organisations achieve greater value through Professionally Coached Employees.
+                </p>
+			</div>
+			<div class="col-sm-4">
+				<h5 class="uppercase general-sub">Download</h5>
+				<p class="inline-block">
+					Need a printable version of my CV? Please download it here.
+					<a href="assets/CV/Screenshot 2019-10-07 15.47.11.png" target="_blank" class="cv-pdf">
+						<i class="fa fa-download" aria-hidden="true"></i>
+						<span class="sr-only">Download link.</span>
+					</a>
+				</p>
+			</div>
+			<div class="col-sm-4">
+				<h5 class="uppercase general-sub">Social</h5>
+				<ul class="list-inline social-links">
+					<li class="list-inline-item">
+						<a href="#" target="_blank">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+							<span class="sr-only">Facebook</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#" target="_blank">
+							<i class="fa fa-twitter" aria-hidden="true"></i>
+							<span class="sr-only">twitter</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#" target="_blank">
+							<i class="fa fa-linkedin" aria-hidden="true"></i>
+							<span class="sr-only">linkedin</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#" target="_blank">
+							<i class="fa fa-pinterest" aria-hidden="true"></i>
+							<span class="sr-only">Pinterest</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#" target="_blank">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+							<span class="sr-only">Instagram</span>
+						</a>
+					</li>
+					<li class="list-inline-item">
+						<a href="#" target="_blank">
+							<i class="fa fa-youtube" aria-hidden="true"></i>
+							<span class="sr-only">YouTube</span>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</footer>
+</body>
+
+</html>
