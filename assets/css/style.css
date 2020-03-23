@@ -15,14 +15,13 @@
     background-color: #ff7512;
 }
 
-
-
 .bg-color-work-history {
     background-color: #9b59b6;
 }
 
 .bg-color-contact {
-    background-color: #ffffff;
+    /* background-color: #ffffff; */
+    background-color: #30e0fc;
 }
 
 .ui-menu-color-home {
@@ -36,6 +35,10 @@
 
 .ui-menu-color-contact {
     /* background-color: #3498db; */
+    background-color: #30e0fc;
+}
+
+.bg-color-contact-info {
     background-color: #30e0fc;
 }
 
@@ -153,7 +156,7 @@ header {
     font-weight: 100;
     font-size: 46px;
     margin-top: 50px;
-    color: #fff;
+    color: #ffffff;
 }
 
 .title {
@@ -162,7 +165,7 @@ header {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 90px;
-    color: #fff;
+    color: #ffffff;
 }
 
 .list-inline-item:not(:last-child) {
@@ -272,6 +275,12 @@ footer {
 
 #footer-details {
     padding: 20px;
+}
+
+/* --- Making the Footer --> About --> Full Stack Developer / Trainer and Coach more prominent (not too much)  --- */
+.inline-block em {
+    font-weight: 450;
+    font-size: 110%;
 }
 
 /* --- Three Reasons --- */
@@ -422,4 +431,15 @@ button[type="submit"] {
         margin: 0 auto;
         max-width: 50%;
     }
+}
+
+/* --- Making the Contact Proposal Emphasis prominent (not too much)  --- */
+.contact-proposal {
+    font-weight: 450;
+    /* font-size: 110%; */
+}
+
+.quotes {
+    padding: 10px 0px;
+    font-weight: 450;
 }
