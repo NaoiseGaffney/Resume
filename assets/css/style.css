@@ -454,7 +454,7 @@ div span i {
     padding-bottom: 15px;
 }
 
-@media (min-width: 575px) {
+@media (max-width: 575px) {
     .quotes {
         padding: 0px 0px 10px 0px;
     }
