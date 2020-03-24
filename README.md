@@ -1,35 +1,63 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+<img src="https://naoisegaffney.github.io/Resume/assets/images/Screenshot%20of%20Index.png" width=33%" heigth=33%" style="margin: 0;"><img src="https://naoisegaffney.github.io/Resume/assets/images/Screenshot%20of%20Resume.png" width=33%" heigth=33%" style="margin: 0;"><img src="https://naoisegaffney.github.io/Resume/assets/images/Screenshot%20of%20Contact.png" width=33%" heigth=33%" style="margin: 0;">
 
-Welcome Naoise Olof Seán Gaffney,
+# Resumé of Naoise Olof Seán Gaffney
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+Using the Code Institute Gitpod template following the Course Segment: User Centric Frontend Development.
 
-## Gitpod Reminders
+While the original course creates a resumé for "Rosie Odenkirk", I've changed it to create a resumé of my own using the course materials. 
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+GitHub Pages: [https://naoisegaffney.github.io/Resume/index.html](https://naoisegaffney.github.io/Resume/index.html)
 
-`python3 -m http.server`
+## Business
+The business drivers for this Web Resumé:
 
-A blue button should appear to click: *Make Public*,
+* Hone the knowledge and skills gained from attending the Full Stack Developer course.
+* Create a professional Web presence with a Resumé aimed at potential clients and employers.
 
-Another blue button should appear to click: *Open Browser*.
+## Processess
+User stories:
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* As an employer I want to employ skilled Developers and/or Trainers so that the organisation I work for benefits financially and culturally.
+* As a Programme / Project Manager / Software Architect I want skilled Developers to join my team for a contract / permanent position to develop solutions for clients and/or end-users.
+* As a Full Stack Developer I want to market my knowledge, skills, and aptitude so that potential employers and collaborators will provide me with work.
 
-A blue button should appear to click: *Make Public*,
+## Solution
+The solution is depicted above with the 3 screenshots. It consists of 3 main pages, a navigation bar, a footer, and a CV download (both from the navigation bar and the footer):
 
-Another blue button should appear to click: *Open Browser*.
+### Index.html
+1. Header with full name and titles
+2. Naviagation bar (Home, Resume, Contact, Download CV)
+3. Personal Info (Name, address, contact details)
+4. About Me (What do I do? How do I do it? Why hire me?)
+5. Footer (About, Download, Social Links)
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
+### Resume.html
+1. Header with full name and titles
+2. Naviagation bar (Home, Resume, Contact, Download CV)
+3. Work History (List of Employers and Roles)
+4. My Skills (Full Stack Developer, Trainer & Coach)
+5. Footer (About, Download, Social Links)
 
-## Updates Since The Instructional Video
+### Contact.html
+1. Header with full name and titles
+2. Naviagation bar (Home, Resume, Contact, Download CV)
+3. Contact Info (Links to Mobile, E-mail, LinkedIn, WhatsApp)
+4. Collaboration Proposal (Full Stack Developer, Trainer & Coach)
+5. Footer (About, Download, Social Links)
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
+## Technology
+* Technology used is HTML 5 and CSS 3 (no JavaScript)
+* GitHub Pages for publishing the site
+* GitHub and GitPod
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Impact
+### People
+I have a Web presence and a link to potential employers and collaborators.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+### Processes
+Engage with me in terms of employment and/or collaborations.
 
---------
+### Technology
+Using new tehnology I've never used before.
 
-Happy coding!
+[mailto:naoise.gaff.gaffney@gmail.com](mailto:naoise.gaff.gaffney@gmail.com)
