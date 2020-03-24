@@ -290,6 +290,18 @@ footer {
     color: #ff7512;
 }
 
+.three-reasons-icon-resume {
+    font-size: 26px;
+    /* color: #e67e22; */
+    color: #9b59b6;
+}
+
+.three-reasons-icon-contact {
+    font-size: 26px;
+    /* color: #e67e22; */
+    color: #30e0fc;
+}
+
 .three-reasons-heading {
     /* margin-bottom: 15px; */
     margin-bottom: 10px;
